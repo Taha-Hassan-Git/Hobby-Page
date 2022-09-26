@@ -1,0 +1,36 @@
+:root {
+    --color1: #19FCCE;
+    --color2: #FCC200;
+    --color3: #F232FC;
+    --color4: #00B08C;
+    --color5: #B38A00;
+}
+
+body {
+    background-color: var(--color4);
+}
+
+h1 {
+    color: var(--color1);
+    align-self: center;
+}
+
+#title {
+    align-items: center;
+    background-color: var(--color2);
+    border: #B38A00;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+img {
+    align-items: center;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
