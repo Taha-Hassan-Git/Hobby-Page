@@ -1,21 +1,28 @@
 :root {
-    --color1: #DFC7ED;
-    --color2: #C7EDD9;
-    --color3: #A19887;
-    --color4: #ECE7DE;
-    --color5: #9A8FA1;
+    --color1: #e6f5f7;
+    --color2: #03000e;
+    --color3: #8d77f1;
+    --color4: #756ed3;
+    --color5: #a73fe7;
 }
 
 body {
     background-color: var(--color1);
+    font-size: 2vw;
 }
 
 h1 {
     text-align: center;
+    color: #e6f5f7;
+    font-size: 4vw;
 }
 
 h2 {
     text-align: center;
+    font-size: 3vw;
+}
+p{
+    font-size: 2vw;
 }
 
 #header {
@@ -24,7 +31,7 @@ h2 {
     margin-right: 15px;
     background-color: var(--color2);
     box-shadow: 5px 5px 5px gray;
-    border: 3px solid black;
+    border: 3px solid purple;
     border-radius: 2%;
     -webkit-border-radius: 2%;
     -moz-border-radius: 2%;
@@ -34,18 +41,17 @@ h2 {
 }
 
 #foot {
-    background-color: var(--color2);
+    background-color: var(--color5);
     height: 100px;
     width: auto;
 }
 
 img {
-    max-width: 450px;
+    max-width: 80vw;
     width: auto;
     height: auto;
     display: block;
     margin: auto;
-    border: 3px solid black;
     border-radius: 2%;
     -webkit-border-radius: 2%;
     -moz-border-radius: 2%;
@@ -54,7 +60,7 @@ img {
 }
 
 div {
-    background-color: var(--color4);
+    background-color: var(--color1);
     box-shadow: 5px 5px 5px gray;
     padding-left: 10px;
     padding-right: 10px;
@@ -63,7 +69,7 @@ div {
     margin-bottom: 10px;
     margin-left: 20px;
     margin-right: 20px;
-    border: 3px solid black;
+    border: 3px solid blue;
     border-radius: 2%;
     -webkit-border-radius: 2%;
     -moz-border-radius: 2%;
