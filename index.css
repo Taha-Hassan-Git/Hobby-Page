@@ -5,10 +5,11 @@
     --color4: #756ed3;
     --color5: #a73fe7;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari&display=swap');
 body {
     background-color: var(--color1);
     font-size: 2vw;
+    font-family: 'Anek Devanagari', sans-serif;
 }
 
 h1 {
